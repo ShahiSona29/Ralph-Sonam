@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background-color: #bbb;
+  width: 1000px;
+}
+
+
+.image img{
+  width:300px;
+}
+
+nav ul li{
+  display: inline;
+}
+
+
+nav ul{
+
+    width: 300px;
+    justify-content: space-between;
+    display: inline;
+    right: 65px;
+}
+
+.home{
+  text-align: center;
+  width:600px;
+  margin: auto;
+}
+
+.container{
+ display: flex;
+ justify-content: space-between;
+
+}
